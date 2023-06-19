@@ -1,0 +1,27 @@
+.btn-search {
+    border: 2px solid ;
+    border-radius: 10px ;
+    color: aqua;
+    height: 25px;
+    width: 100px;
+    padding: 5px;
+}
+
+.btn-agg {
+    border: 1px;
+    border-radius: 50%;
+    background-color: aqua;
+    color: white;
+    font-size: 20px;
+}
+
+.btn-create {
+    color: white;
+    background-color: rgb(75, 153, 201);
+    box-shadow: 10px 5px 5px black;
+    padding: 5px;
+}
+
+div {
+    margin: 5px;
+}
