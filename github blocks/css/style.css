@@ -1,0 +1,36 @@
+body { 
+    background-color: aliceblue;
+}
+
+h1 {
+    text-align: center;
+}
+
+.dim-img {
+    width: 300px;
+
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 15px;
+
+}
+
+
+.block-1 {
+    background-color: skyblue;
+}
+
+
+.block-2 {
+    background-color: pink;
+    justify-content: space-around;
+}
+
+
+.block-3 {
+    background-color: white;
+}
