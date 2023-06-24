@@ -1,0 +1,39 @@
+.nav {
+    display: flex;
+    justify-content:space-between;
+    padding: 0px 15px;
+    background-color: rgb(61, 61, 61);
+    align-items: center;
+    
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+
+}
+.btn {
+    background-color: skyblue;
+    box-shadow: 10px 11px 5px 0px rgba(0,0,0,0.75);
+    padding: 5px;
+    
+
+}
+
+li {
+    margin-right: 15px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: silver;
+}
+
+.active {
+    color: white;
+}
+
+.nav-title {
+    color: white;
+}
