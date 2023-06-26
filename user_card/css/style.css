@@ -1,0 +1,54 @@
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    
+    
+    width: 700px;
+    border-top: 1px solid silver;
+    border-right: 1px solid silver;
+    border-bottom: 1px solid silver;
+    border-left: 1px solid silver;
+
+}
+
+.user-card {
+    width: 700px;
+    background-color:aliceblue;
+}
+
+.head {
+    background-color: rgb(108, 221, 224);
+    height: 100px;
+    margin-bottom: 60px;
+}
+
+body {
+    background-color: #d6e0eb;
+    font-family: 'Belanosima', sans-serif;;
+}
+
+.body {
+    padding-left: 20px;
+
+}
+
+.p {
+    padding-left: 30px;
+}
+.user {
+    border-radius: 50%;
+    border: 2px solid silver ;
+    padding: 3px;
+    background-color: #e9e3e3;
+    height: 120px;
+    margin-top: 25px;
+    margin-left: 25px;
+
+}
+
+.ubi, .conf {
+    height: 15px;
+}
+
+
