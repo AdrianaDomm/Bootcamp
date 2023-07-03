@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+}
+
+.nav-container {
+    background-color: rgb(56, 78, 52);
+    margin-bottom: 15px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.btn {
+    background-color: rgb(73, 58, 14);
+    padding: 3px;
+}
+
+li {
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: silver;
+}
+
+.active,
+.nav-title {
+    color: rgb(78, 21, 21);
+}
+
+.main {
+    display: flex;
+    column-gap: 30px;
+}
+
+.profile {
+    flex: 2;
+    width: 100px;
+}
+
+.item-profile {
+    border: 3px solid brown;
+    margin-bottom: 10px;
+}
+
+.item-education {
+    border: 3px solid silver;
+}
+
+.info-profile {
+    padding: 20px;
+}
+
+.info-profile h1 {
+    margin-bottom: 10px;
+}
+
+
+.flex-ubi {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    margin-bottom: 10px;
+}
+
+.connections {
+    flex: 1;
+    width: 100px;
+}
+
+.connection-resq {
+    margin-bottom: 10px;
+}
+
+.head-connect-rq {
+    display: flex;
+    background-color: black;
+    padding: 15px 10px;
+    column-gap: 15px;
+    align-items: center;
+}
+
+.head-connect-rq p {
+    display: inline;
+    background-color: silver;
+    padding: 5px 8px;
+    border-radius: 50%;
+}
+
+.head-connect-rq h4 {
+    color: silver;
+}
+
+.head-profile {
+    background-color: brown;
+    height: 100px;
+    margin-bottom: -70px;
+}
+
+.description-profile {
+    margin-bottom: 10px;
+}
+
+.container,
+.nav,
+.btn {
+    font-family: 'Belanosima', sans-serif;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.map,
+.edit {
+    height: 15px;
+}
+
+.user {
+    border-radius: 50%;
+    border: 2px solid brown;
+    height: 120px;
+    padding: 2px;
+    background-color: white;
+}
+
+.edit {
+    display: flex;
+    align-items: center;
+    column-gap: 3px;
+    color: rgb(42, 42, 100);
+    text-decoration: underline rgb(160, 160, 184);
+}
+
+
+.icons {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+}
